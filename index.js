@@ -5,8 +5,6 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken")
-
-
 const app = express();
 
 app.use(express.json());
@@ -14,14 +12,11 @@ app.use(cors());
 
 const connectionURL = "mongodb+srv://ayushmanware19:Ayush2001@cluster0.badubsb.mongodb.net/Major-Project-Tourism-India?retryWrites=true&w=majority&appName=Cluster0"
 
-
 // Connection To Mongodb
 mongoose
   .connect(connectionURL)
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
-
-
 
 // User model
 const User = mongoose.model("User", {
@@ -30,11 +25,7 @@ const User = mongoose.model("User", {
   password: String,
 });
 
-
-
 app.use(bodyParser.json());
-
-
 
 app.post('/register', async (req, res) => {
     try {
@@ -66,8 +57,6 @@ app.post('/register', async (req, res) => {
     }
   });
 
-
-
 app.post('/login', async (req, res) => {
     try {
       const { email, password } = req.body;
@@ -93,9 +82,9 @@ app.post('/login', async (req, res) => {
     }
   });  
 
-
-
-
+app.get("/",(req,res)=>{
+  res.send(data)
+})
 
 
 app.get("/Madhya-Pradesh", (req, res) => {
@@ -130,40 +119,16 @@ app.get("/Haryana", (req, res) => {
   res.send(data.filter((f) => f.state === "Haryana"));
 });
 
-app.get("/Assam", (req, res) => {
-  res.send(data.filter((f) => f.state === "Assam"));
-});
-
-app.get("/Puduchery", (req, res) => {
-  res.send(data.filter((f) => f.state === "Puduchery"));
+app.get("/Kerala", (req, res) => {
+  res.send(data.filter((f) => f.state === "Kerala"));
 });
 
 app.get("/Rajasthan", (req, res) => {
-  res.send(data.filter((f) => f.state === "Puduchery"));
-});
-
-app.get("/Puduchery", (req, res) => {
   res.send(data.filter((f) => f.state === "Rajasthan"));
 });
 
-app.get("/goa", (req, res) => {
-  res.send(data.filter((f) => f.state === "goa"));
-});
-
-app.get("/uttrakhand", (req, res) => {
-  res.send(data.filter((f) => f.state === "uttrakhand"));
-});
-
-app.get("/sikkim", (req, res) => {
-  res.send(data.filter((f) => f.state === "sikkim"));
-});
-
-app.get("/meghalaya", (req, res) => {
-  res.send(data.filter((f) => f.state === "meghalaya"));
-});
-
-app.get("/kerala", (req, res) => {
-  res.send(data.filter((f) => f.state === "kerala"));
+app.get("/Goa", (req, res) => {
+  res.send(data.filter((f) => f.state === "Goa"));
 });
 
 app.listen(2100, () => {

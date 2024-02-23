@@ -43,7 +43,6 @@ const data = [
     ],
   },
   
-
   {
     id: 2,
     state: "Himachal Pradesh",
@@ -176,7 +175,6 @@ const data = [
     ],
   },
 
-
   {
     id: 5,
     state: "Nagaland",
@@ -220,7 +218,6 @@ const data = [
       },
     ],
   },
-
 
   {
     id: 6,
@@ -266,7 +263,6 @@ const data = [
     ],
   },
 
-
   {
     id: 7,
     state: "West Bengal",
@@ -310,7 +306,6 @@ const data = [
       },
     ],
   },
-
 
   {
     id: 8,
@@ -356,96 +351,182 @@ const data = [
     ],
   },
 
+// {
+  //   id: 9,
+  //   state: "Assam",
+  //   stateImage:"https://th.bing.com/th/id/OIP.L_PVWltV6oMGng_6ULWyKQHaEU?w=276&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+  //   cities: [
+  //     {
+  //       name: "Guwahati",
+  //       image: "https://th.bing.com/th/id/OIP.Gmpt0rSS-5eAaZvbYr48MwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+  //       places: [
+  //         { name: "Maa Kamakhya Temple", image: "https://th.bing.com/th/id/OIP.sQL0rPPxustYlwKa0VI5KwHaFj?w=272&h=204&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+  //         { name: "Shree Umanand Temple", image: "https://th.bing.com/th/id/OIP.Gmpt0rSS-5eAaZvbYr48MwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+  //         { name: "Dipor Bil", image: "https://th.bing.com/th/id/OIP.McAQkOTIIXucqJiCTX7YdAHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" }, 
+  //       ],
+  //     },
+  //     {
+  //       name: "Jorhat",
+  //       image: "https://th.bing.com/th/id/OIP.omnMJRb5g6AsJSzOJRVM4QAAAA?w=333&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+  //       places: [
+  //           { name: "Tocklai Tea Research Institute", image: "https://th.bing.com/th/id/OIP.YqqruMVX8d1Dd0ISguqtNQHaFT?w=226&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+  //           { name: "Jorhat Science Centre", image: "https://th.bing.com/th/id/OIP.6fmQlq6iPnnCOMUxR0XXtQHaE6?w=270&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+  //           { name: "national Heo Lachit Borphukan Maidam", image: "https://th.bing.com/th/id/OIP.HQKmiGgmSbv7M5vOPQHdIAHaDl?w=312&h=169&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },  
+  //       ],
+  //     },
+  //     {
+  //       name: " ",
+  //       image: " ",
+  //       places: [
+  //         { name: " ", image: " ", discription :"Description" },
+  //         { name: " ", image: " ", discription :"Description" },
+  //         { name: " ", image: " ", discription :"Description" },  
+  //     ],
+  //     },
+  //     {
+  //       name: " ",
+  //       image: " ",
+  //       places: [
+  //           { name: " ", image: " ", discription :"Description" },
+  //           { name: " ", image: " ", discription :"Description" },
+  //           { name: " ", image: " ", discription :"Description" },  
+  //       ],
+  //     },
+  //   ],
+// },
 
-
-  {
-    id: 9,
-    state: "Assam",
-    stateImage:"https://th.bing.com/th/id/OIP.L_PVWltV6oMGng_6ULWyKQHaEU?w=276&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
-    cities: [
-      {
-        name: "Guwahati",
-        image: "https://th.bing.com/th/id/OIP.Gmpt0rSS-5eAaZvbYr48MwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
-        places: [
-          { name: "Maa Kamakhya Temple", image: "https://th.bing.com/th/id/OIP.sQL0rPPxustYlwKa0VI5KwHaFj?w=272&h=204&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
-          { name: "Shree Umanand Temple", image: "https://th.bing.com/th/id/OIP.Gmpt0rSS-5eAaZvbYr48MwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
-          { name: "Dipor Bil", image: "https://th.bing.com/th/id/OIP.McAQkOTIIXucqJiCTX7YdAHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" }, 
-        ],
-      },
-      {
-        name: "Jorhat",
-        image: "https://th.bing.com/th/id/OIP.omnMJRb5g6AsJSzOJRVM4QAAAA?w=333&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7",
-        places: [
-            { name: "Tocklai Tea Research Institute", image: "https://th.bing.com/th/id/OIP.YqqruMVX8d1Dd0ISguqtNQHaFT?w=226&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
-            { name: "Jorhat Science Centre", image: "https://th.bing.com/th/id/OIP.6fmQlq6iPnnCOMUxR0XXtQHaE6?w=270&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
-            { name: "national Heo Lachit Borphukan Maidam", image: "https://th.bing.com/th/id/OIP.HQKmiGgmSbv7M5vOPQHdIAHaDl?w=312&h=169&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },  
-        ],
-      },
-      {
-        name: " ",
-        image: " ",
-        places: [
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" },  
-      ],
-      },
-      {
-        name: " ",
-        image: " ",
-        places: [
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " ", discription :"Description" },  
-        ],
-      },
-    ],
-  },
-
-
-  {
+{
     id: 10,
-    state: "Puduchery",
-    stateImage:" ",
+    state: "Rajashtan",
+    stateImage:"https://pixabay.com/images/search/rajasthan/",
     cities: [
       {
-        name: " ",
-        image: " ",
+        name: "Jaipur",
+        image: "https://pixabay.com/images/search/jaipur/",
         places: [
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" }, 
+          { name: "Hawa Mahal", image: "https://pixabay.com/images/search/hawa%20mahal%20jaipur/" },
+          { name: "Jantar Mantar", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fjantar%2520mantar%2F&psig=AOvVaw0X6UBXL8OkkF81ODqingYr&ust=1708766229009000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCMDa3rOQwYQDFQAAAAAdAAAAABAE" },
+          { name: "Nahargarh Fort", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnahargarh%2520fort%2F&psig=AOvVaw0Awy9wycXKSxkjExRaUg4L&ust=1708766577226000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCOjBmu2RwYQDFQAAAAAdAAAAABAE" }, 
         ],
       },
       {
-        name: " ",
-        image: " ",
+        name: "Jodhpur",
+        image: "https://www.pexels.com/search/jodhpur/",
         places: [
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " 7", discription :"Description" },  
+            { name: "Mehrangarh Fort", image: "https://pixabay.com/images/search/mehrangarh%20fort/" },
+            { name: "Moti Mahal", image: "https://www.alamy.com/stock-photo/moti-mahal-india.html" },
+            { name: "SHEESH MAHAL", image: "https://www.alamy.com/stock-photo/sheesh-mahal.html" },  
         ],
       },
       {
-        name: " ",
-        image: " ",
+        name: "Udaipur",
+        image: "https://pixabay.com/images/search/udaipur/",
         places: [
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" },  
+            { name: "City Palace ",image: "https://www.alamy.com/stock-photo/city-palace-udaipur.html" },
+            { name: "Lake Pichola", image: "https://www.alamy.com/stock-photo/pichola-lake.html" },
+            { name: "Bagore Ki Haveli Museum", image: "https://www.alamy.com/stock-photo/bagore-ki-haveli.html" },  
+        ],
+      },
+      {
+        name: "Jaisalmer",
+        image: "https://pixabay.com/images/search/jaisalmer/",
+        places: [
+            { name: "Jaisalmer Fort", image: "https://www.alamy.com/stock-photo/jaisalmer-fort.html" },
+            { name: "Patwon ki Haveli", image: "https://www.alamy.com/stock-photo/patwa-haveli.html" },
+            { name: "Nathmal ki Haveli.", image: "https://www.alamy.com/stock-photo/nathmal-ki-haveli.html" },  
+        ],
+    },
+],
+},
+
+{
+  id: 11,
+  state: "Goa",
+  stateImage:"https://pixabay.com/images/search/goa%20india/",
+  cities: [
+    {
+      name: "panaji ",
+      image: "https://www.alamy.com/stock-photo/panaji-old-town.html",
+      places: [
+        { name: "Dona Paula Beach", image: "https://www.alamy.com/stock-photo/dona-paula.html" },
+        { name: "Shantadurga Temple", image: "https://www.alamy.com/stock-photo/shantadurga-temple.html" },
+        { name: "Reis Magos Fort", image: "https://www.alamy.com/stock-photo/reis-magos-fort.html" }, 
       ],
-      },
-      {
-        name: " ",
-        image: " ",
-        places: [
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " ", discription :"Description" },  
-        ],
-      },
-    ],
-  },
+    },
+    {
+      name: "Mapusa",
+      image: "https://www.alamy.com/stock-photo/mapusa-city.html",
+      places: [
+          { name: "Aguada Fort", image: "https://www.alamy.com/stock-photo/fort-aguada.html" },
+          { name: "Maruti Temple", image: "https://www.alamy.com/stock-photo/maruti-mandir.html" },
+          { name: "Chapora Fort", image: "https://www.alamy.com/stock-photo/chapora-fort-goa.html" },  
+      ],
+    },
+    {
+      name: "Ponda",
+      image: "https://www.alamy.com/stock-photo/ponda-city.html",
+      places: [
+          { name: "Sri Ramnath Temple",image: "https://www.alamy.com/stock-photo/ramnath-temple.html" },
+          { name: "Laxmi Narasimha Temple", image: "https://www.alamy.com/stock-photo/lakshmi-narasimha-temple.html" },
+          { name: "Mahalaxmi Temple", image: "https://www.alamy.com/stock-photo/mahalakshmi-temple-kolhapur.html" },  
+      ],
+    },
+    {
+      name: "Bicholim",
+      image: "https://www.alamy.com/stock-photo/bicholim-goa.html",
+      places: [
+          { name: "Mayem Lake", image: "https://www.alamy.com/stock-photo/mayem-lake.html" },
+          { name: "Harvalem Caves", image: "https://www.alamy.com/stock-photo/harvalem.html" },
+          { name: "Arvalam Waterfalls", image: "https://www.alamy.com/stock-photo/arvalem-goa.html" },  
+      ],
+    },
+    ],
+},
+
+{
+  id: 12,
+  state: "Kerla",
+  stateImage:"https://www.alamy.com/stock-photo/kerala-city.html",
+  cities: [
+    {
+      name: "Kochi ",
+      image: "https://www.alamy.com/stock-photo/kochi-city.html",
+      places: [
+        { name: "LuLu Mall", image: "https://www.alamy.com/stock-photo/lulu-mall.html" },
+        { name: "Kerala Folklore Museum", image: "https://www.alamy.com/stock-photo/kerala-folklore-museum.html" },
+        { name: "Chottanikkara Temple", image:  "https://www.alamy.com/stock-photo/bhagavathy.html" }, 
+      ],
+    },
+    {
+      name: "Thiruvananthapuram",
+      image: "https://www.alamy.com/stock-photo/thiruvananthapuram-city.html",
+      places: [
+          { name: "Ponmudi", image: "https://www.alamy.com/stock-photo/ponmudi-trivandrum.html" },
+          { name: "Agasthyamala.", image: "https://www.alamy.com/stock-photo/agasthyamala.html" },
+          { name: "Neyyar Dam & Wildlife Sanctuary", image: "https://www.alamy.com/stock-photo/neyyar-wildlife-sanctuary.html" },  
+      ],
+    },
+    {
+      name: "Kollam",
+      image: "https://www.alamy.com/stock-photo/kollam-city.html",
+      places: [
+          { name: "Kollam Beach",image: "https://www.alamy.com/stock-photo/trivandrum-kollam-beach.html" },
+          { name: "Palaruvi Falls", image: "https://www.alamy.com/stock-photo/palaruvi.html" },
+          { name: "Sri Mahaganapathi Temple", image: "https://www.alamy.com/stock-photo/maha-ganapati.html" },  
+      ],
+    },
+    {
+      name: "	Ernakulam",
+      image: "https://www.alamy.com/stock-photo/ernakulam-city.html",
+      places: [
+          { name: "EDAPALLY ST. GEORGE FORANE CHURCH", image: "https://www.alamy.com/stock-photo/edappally.html" },
+          { name: "ERNAKULAM SHIVA TEMPLE", image: "https://www.alamy.com/stock-photo/shiva-temple-ernakulam.html" },
+          { name: "FORT KOCHI", image: "https://www.alamy.com/stock-photo/fort-kochi.html" },  
+      ],
+    },
+    ],
+},
+
 ];
 
 module.exports = data
