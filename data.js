@@ -405,7 +405,7 @@ const data = [
 
   {
     id: 10,
-    state: " ",
+    state: "Puduchery",
     stateImage:" ",
     cities: [
       {
@@ -447,3 +447,5 @@ const data = [
     ],
   },
 ];
+
+module.exports = data
