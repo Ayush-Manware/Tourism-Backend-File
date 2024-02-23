@@ -350,7 +350,7 @@ const data = [
         places: [
             { name: "kabuli Bagh Masjid", image: "https://th.bing.com/th/id/OIP.PwiID4LqDy7TWNpR6Kj5CwAAAA?w=226&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
             { name: "Ibrahim Lodhi Tomb", image: "https://th.bing.com/th/id/OIP.yBkRKKJ3cbmSO6ZeXUTlOwHaEb?w=276&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
-            { name: "Pannipat Museum", image: " ", discription :"Description" },  
+            { name: "Pannipat Museum", image: "https://th.bing.com/th/id/OIP.Jc3p1kWg9fBgHUtD7QVOxwHaFj?w=200&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },  
         ],
       },
     ],
@@ -360,25 +360,25 @@ const data = [
 
   {
     id: 9,
-    state: " ",
-    stateImage:" ",
+    state: "Assam",
+    stateImage:"https://th.bing.com/th/id/OIP.L_PVWltV6oMGng_6ULWyKQHaEU?w=276&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
     cities: [
       {
-        name: " ",
-        image: " ",
+        name: "Guwahati",
+        image: "https://th.bing.com/th/id/OIP.Gmpt0rSS-5eAaZvbYr48MwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
         places: [
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" },
-          { name: " ", image: " ", discription :"Description" }, 
+          { name: "Maa Kamakhya Temple", image: "https://th.bing.com/th/id/OIP.sQL0rPPxustYlwKa0VI5KwHaFj?w=272&h=204&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+          { name: "Shree Umanand Temple", image: "https://th.bing.com/th/id/OIP.Gmpt0rSS-5eAaZvbYr48MwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+          { name: "Dipor Bil", image: "https://th.bing.com/th/id/OIP.McAQkOTIIXucqJiCTX7YdAHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" }, 
         ],
       },
       {
-        name: " ",
-        image: " ",
+        name: "Jorhat",
+        image: "https://th.bing.com/th/id/OIP.omnMJRb5g6AsJSzOJRVM4QAAAA?w=333&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7",
         places: [
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " ", discription :"Description" },
-            { name: " ", image: " 7", discription :"Description" },  
+            { name: "Tocklai Tea Research Institute", image: "https://th.bing.com/th/id/OIP.YqqruMVX8d1Dd0ISguqtNQHaFT?w=226&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+            { name: "Jorhat Science Centre", image: "https://th.bing.com/th/id/OIP.6fmQlq6iPnnCOMUxR0XXtQHaE6?w=270&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },
+            { name: "national Heo Lachit Borphukan Maidam", image: "https://th.bing.com/th/id/OIP.HQKmiGgmSbv7M5vOPQHdIAHaDl?w=312&h=169&c=7&r=0&o=5&dpr=1.1&pid=1.7", discription :"Description" },  
         ],
       },
       {
