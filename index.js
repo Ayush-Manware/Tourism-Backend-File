@@ -27,7 +27,7 @@ const User = mongoose.model("User", {
 
 app.use(bodyParser.json());
 
-app.post('/register', async (req, res) => {
+app.post('/Sign-up', async (req, res) => {
     try {
       const { username, email, password } = req.body;
   
