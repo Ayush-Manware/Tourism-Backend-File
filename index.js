@@ -82,10 +82,21 @@ app.post('/login', async (req, res) => {
     }
   });  
 
+app.post('/logout', (req, res) => {
+ 
+  req.session.destroy((err) => {
+    if (err) {
+      console.error("Error destroying session:", err);
+      return res.status(500).send("Internal Server Error");
+    }
+    res.clearCookie('connect.sid'); 
+    res.json({ message: "Logged out successfully" });
+  });
+});
+
 app.get("/",(req,res)=>{
   res.send(data)
 })
-
 
 app.get("/Madhya-Pradesh", (req, res) => {
   res.send(data.filter((f) => f.state === "Madhya Pradesh"));
